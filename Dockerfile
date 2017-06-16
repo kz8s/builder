@@ -10,7 +10,7 @@ RUN set -eux &&\
         apt-utils bash bc binutils binutils-gold build-essential bzip2 \
         chrpath cpio curl curl debianutils diffstat doxygen flex \
         g++ gawk gawk gcc gcc-multilib gettext git git-core \
-        libc6-dev libc6-dev-i386 libncurses5-dev libncurses5-dev libpcre3-dev \
+        libc6-dev libc6-dev-i386 libncurses5-dev libncurses5-dev libpcre3-dev libssl-dev \
         libxml-parser-perl locales lzop make man ocaml ocaml-findlib ocaml-nox ocaml-nox \
         patch pkg-config python python-yaml python3 python3-pexpect python3-pip quilt \
         screen sharutils socat subversion sudo texinfo unzip unzip vim wget xz-utils zlib1g-dev &&\
